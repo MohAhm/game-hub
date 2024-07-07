@@ -5,7 +5,7 @@ import ApiClient from "../services/api-client";
 // add -D to the install command
 // npm install -D @types/ms
 import ms from "ms";
-import { Genre } from "../entities/Genre";
+import Genre from "../entities/Genre";
 
 
 const apiClient = new ApiClient<Genre>('/genres')

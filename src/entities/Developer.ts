@@ -1,4 +1,4 @@
-export interface Developer {
+export default interface Developer {
   id: string
   name: string
 }
